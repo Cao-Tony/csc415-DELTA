@@ -20,7 +20,8 @@ int initializeFreeSpace(VCB * vcb_ptr){
 			bitmap[i] = 1;
 		}
 	bitmap_ptr = bitmap;
-	LBAwrite(bitmap_ptr, num_of_blocks, vcb_ptr->free_space_starting_block);
+	//LBAwrite(bitmap_ptr, num_of_blocks, vcb_ptr->free_space_starting_block);
+	LBAwrite(bitmap_ptr, 1, vcb_ptr->free_space_starting_block);
 	
 	return (0);
 }
