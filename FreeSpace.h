@@ -5,8 +5,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <malloc.h>
+#include "VCB.h"
 
-int initializeFreeSpace();
+int initializeFreeSpace(VCB * vcp_ptr);
 
 
 
