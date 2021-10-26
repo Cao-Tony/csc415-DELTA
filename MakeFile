@@ -1,0 +1,22 @@
+ROOTNAME=VCB
+HW=
+FOPTION=
+RUNOPTIONS=
+CC=gcc
+CFLAGS= -g -I.
+LIBS =pthread
+DEPS = 
+ADDOBJ=
+OBJ = $(ROOTNAME)$(HW)$(FOPTION).o $(ADDOBJ)
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS) 
+
+$(ROOTNAME)$(HW)$(FOPTION): $(OBJ)
+	$(CC) -o $@ $^ $(CFLAGS) -lm -l readline -l $(LIBS)
+
+clean:
+	rm *.o $(ROOTNAME)$(HW)$(FOPTION)
+
+run: $(ROOTNAME)$(HW)$(FOPTION)
+	./$(ROOTNAME)$(HW)$(FOPTION) $(RUNOPTIONS)
