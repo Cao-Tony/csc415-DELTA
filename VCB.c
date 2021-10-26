@@ -1,16 +1,3 @@
-/**************************************************************
-* Class:  CSC-415 01 01 02 Spring 2021
-* Name: Lake Jasper, Justin Lam, Kami Sawekchim
-* Student ID: 920150605, 921097655, 918649594
-* GitHub UserID:  TheJaspinater
-* Project: Basic File System
-*
-* File: volumeControlBlock.c
-*
-* Description: volume control block management
-*
-**************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
