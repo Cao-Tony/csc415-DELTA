@@ -2,7 +2,7 @@
 * Class:  CSC-415
 * Name: Professor Bierman
 * Student ID: N/A
-* Project: Basic File System
+* Project: File System
 *
 * File: fsLow.h
 *

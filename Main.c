@@ -1,3 +1,14 @@
+/**************************************************************
+* Class:  CSC-415 
+* Name: Tony Cao
+* Student ID: 920171613
+* GitHub Handle:  Cao-Tony
+* Project: File System
+*
+* File: Main.c
+*
+* Description: M1 demo
+**************************************************************/
 #include "fsMain.h"
 
 // mod(pi,2)

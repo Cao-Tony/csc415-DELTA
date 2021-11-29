@@ -1,3 +1,14 @@
+/**************************************************************
+* Class:  CSC-415 
+* Name: Tony Cao
+* Student ID: 920171613
+* GitHub Handle:  Cao-Tony
+* Project: File System
+*
+* File: FreeSpace.h
+*
+* Description: FreeSpace allocation and managment interface
+**************************************************************/
 #ifndef _FREESPACE_H
 #define _FREESPACE_H
 #include <stdio.h>

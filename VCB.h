@@ -1,3 +1,14 @@
+/**************************************************************
+* Class:  CSC-415 
+* Name: Tony Cao
+* Student ID: 920171613
+* GitHub Handle:  Cao-Tony
+* Project: File System
+*
+* File: VCB.h
+*
+* Description: volume control block management
+**************************************************************/
 #ifndef _VOLUMECONTROLBLOCK_H
 #define _VOLUMECONTROLBLOCK_H
 #include <stdio.h>

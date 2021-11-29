@@ -1,3 +1,14 @@
+/**************************************************************
+* Class:  CSC-415 
+* Name: Tony Cao
+* Student ID: 920171613
+* GitHub Handle:  Cao-Tony
+* Project: File System
+*
+* File: fsshell.c
+*
+* Description: Main driver for file system assignment.
+**************************************************************/
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>

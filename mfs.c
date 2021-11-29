@@ -1,3 +1,15 @@
+/**************************************************************
+* Class:  CSC-415 
+* Name: Tony Cao
+* Student ID: 920171613
+* GitHub Handle:  Cao-Tony
+* Project: File System
+*
+* File: mfs.c
+*
+* Description: file system interface needed by the driver to 
+* interact with your filesystem.
+**************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
